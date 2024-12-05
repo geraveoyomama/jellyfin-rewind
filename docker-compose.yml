@@ -1,0 +1,6 @@
+services:
+  rewind:
+    image: docker.io/chaphasilor/jellyfin-rewind:latest
+    name: jellyfin-rewind
+    ports:
+      - 80:80
